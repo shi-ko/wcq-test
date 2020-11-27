@@ -1,0 +1,100 @@
+header {
+  height: 90px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #666666;
+  background-color: white;
+}
+header ul:first-of-type li {
+  float: left;
+  margin: 30px 15px;
+  font-size: 18px;
+  position: relative;
+}
+header ul:first-of-type li:hover em {
+  display: block;
+}
+header ul:first-of-type a {
+  width: 80px;
+  height: 24px;
+  display: block;
+}
+header ul:first-of-type em {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 1px;
+  background-image: url(../img/NavIcoActive.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  transition: 1.6s;
+  display: none;
+}
+header ul:first-of-type em:hover {
+  transform: scale(2, 2);
+  visibility: visible;
+}
+header ul:first-of-type .red-border {
+  border: solid 1px #ff4905;
+  border-radius: 15%;
+  margin: 25px 15px;
+  padding: 5px;
+}
+header ul:first-of-type .red-border a {
+  color: #ff4905;
+}
+header ul:nth-of-type(2) {
+  float: right;
+}
+header ul:nth-of-type(2) li {
+  margin: 28px 7px;
+  padding: 2px;
+  font-size: 13px;
+  float: left;
+}
+header ul:nth-of-type(2) li img {
+  width: 20px;
+}
+header ul:nth-of-type(2) .search:hover input {
+  border: solid 1px cadetblue;
+  width: 100px;
+  background-position: 80px 0 ;
+}
+header ul:nth-of-type(2) .search {
+  position: relative;
+}
+header ul:nth-of-type(2) .search input {
+  width: 20px;
+  height: 20px;
+  border: solid 1px white;
+  border-radius: 10%;
+  margin: 0 0 0 auto;
+  transition: 1s;
+  background-image: url(../img/search-logo.png);
+  background-size: 20px ;
+  background-position: 0 0 ;
+  background-repeat: no-repeat;
+}
+footer {
+  width: 100%;
+  height: 160px;
+  padding-top: 40px;
+  background-color: #404144;
+  position: relative;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+  color: #999999;
+  margin: 15px;
+}
+footer a {
+  font-size: 15px;
+  color: #999999;
+  margin-left: 4px;
+}
+footer div {
+  position: absolute;
+  top: 70px;
+  right: 110px;
+}

@@ -1,0 +1,53 @@
+article {
+  position: relative;
+}
+article .left {
+  margin: 60px 570px 300px 110px;
+  padding: 0px 90px;
+  border-right: solid 1px;
+}
+article .left p {
+  font-size: 18px;
+  color: #333333;
+}
+article .left input {
+  width: 265px;
+  height: 38px;
+  border: solid 1px #dddddd;
+  margin: 10px;
+}
+article .left span {
+  font-size: 16px;
+  display: inline-block;
+}
+article .left span:first-of-type {
+  margin: 8px 13px 0 214px;
+}
+article .left #submit {
+  font-size: 20px;
+  margin: 10px 63px;
+  color: #ffffff;
+  background-color: #ff4a00;
+  cursor: pointer;
+}
+article .left em {
+  color: #999 !important;
+  padding-left: 8px;
+  font-size: 12px;
+}
+article .right {
+  position: absolute;
+  right: 70px;
+  top: 5px;
+}
+article .right * {
+  margin: 10px;
+}
+article .right h3 {
+  font-size: 19px;
+  color: #333333;
+}
+article .right p {
+  font-size: 17px;
+  color: #666666;
+}

@@ -1,0 +1,142 @@
+article h2 {
+  font-size: 25px;
+}
+article .content {
+  display: flex;
+  justify-content: space-around;
+}
+article .content div {
+  margin: 40px 0 0 0;
+}
+article .content .left {
+  width: 950px;
+}
+article .content .left img {
+  width: 200px;
+}
+article .content .left div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article .content .left ul {
+  margin: 10px;
+}
+article .content .left ul li {
+  margin: 8px;
+}
+article .content .left span:first-child {
+  text-decoration: line-through;
+}
+article .content .left span:nth-child(2) {
+  color: #ff4a00;
+}
+article .content .left a {
+  color: green;
+}
+article .content .right h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+article .content .right .star {
+  width: 210px;
+  height: 41px;
+  background-image: url(../img/commentIcon.png);
+  background-repeat: no-repeat;
+  background-size: 200px 262px;
+}
+article .content .right span {
+  display: inline-block;
+  width: 38px;
+  height: 40px;
+}
+article .content .right div {
+  margin-top: 10px;
+}
+article .content .right .comment {
+  font-size: 18px;
+}
+article .content .right .comment hr {
+  margin-top: 20px;
+}
+.video {
+  width: 100%;
+  height: 500px;
+  background-color: #292929;
+  display: flex;
+  justify-content: space-between;
+}
+.video .left {
+  width: 600px;
+  height: 420px;
+  margin: auto 100px;
+  position: relative;
+}
+.video .left .control {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.video .left .control span {
+  margin: auto 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.video .left .control em {
+  height: 10px;
+  width: 0px;
+  background-color: red;
+  display: inline-block;
+}
+.video .left .control .btn {
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/playIcon.png);
+  background-size: 228px 65px;
+}
+.video .left .control div {
+  width: 370px;
+  margin: auto 0;
+  background-color: green;
+}
+.video .left .control .play {
+  background-position: 0 -8px;
+}
+.video .left .control .pause {
+  background-position: -53px -8px;
+}
+.video .left .control .screen {
+  background-position: 108px -8px;
+}
+.video .left .control .change {
+  margin: auto -6px;
+  padding: 10px 0 10px 23px;
+  background-position: 32px 0px;
+  background-size: 179px 41px;
+}
+.video .right {
+  width: 460px;
+  background-color: #1f1f1f;
+  opacity: 0.7;
+  margin: 40px 70px 40px 0px;
+}
+.video .right ul {
+  margin-top: 30px;
+}
+.video .right li {
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  font-size: 18px;
+  color: #8d8d8d;
+  line-height: 50px;
+  border-bottom: honeydew solid 1px;
+}
+video {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,188 @@
+article {
+
+    h2 {
+        font-size: 25px;
+    }
+
+
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+
+        div {
+            margin: 40px 0 0 0;
+        }
+
+        .left {
+            width: 950px;
+
+            img {
+                width: 200px;
+            }
+
+            div {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            ul {
+                margin: 10px;
+
+                li {
+                    margin: 8px;
+                }
+            }
+
+            span:first-child {
+                text-decoration: line-through;
+            }
+
+            span:nth-child(2) {
+                color: #ff4a00;
+            }
+
+            a {
+                color: green;
+            }
+        }
+
+
+        .right {
+            h3 {
+                font-size: 20px;
+                margin: 10px;
+            }
+
+            .star {
+                width: 210px;
+                height: 41px;
+                background-image: url(../img/commentIcon.png);
+                background-repeat: no-repeat;
+                background-size: 200px 262px;
+            }
+
+            span {
+                display: inline-block;
+                width: 38px;
+                height: 40px;
+            }
+
+            div {
+                margin-top: 10px;
+            }
+            .comment {
+                font-size: 18px;
+                hr {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+.video {
+    width: 100%;
+    height: 500px;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        width: 600px;
+        height: 420px;
+        margin: auto 100px;
+        position: relative;
+
+        .control {
+            width: 100%;
+            height: 10%;
+            background-color: white;
+            opacity: 0.7;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+
+            span {
+                margin: auto 0;
+                padding: 5px;
+                cursor: pointer;
+            }
+
+            em {
+                height: 10px;
+                width: 0px;
+                background-color: red;
+                display: inline-block;
+            }
+
+            .btn {
+                width: 37px;
+                height: 37px;
+                background-image: url(../img/playIcon.png);
+                background-size: 228px 65px;
+                ;
+
+            }
+
+            div {
+                width: 370px;
+                margin: auto 0;
+                background-color: green;
+            }
+
+            .play {
+                background-position: 0 -8px;
+            }
+
+            .pause {
+                background-position: -53px -8px;
+            }
+
+            .screen {
+                background-position: 108px -8px;
+
+            }
+
+            .change {
+                margin: auto -6px;
+                padding: 10px 0 10px 23px;
+                background-position: 32px 0px;
+                background-size: 179px 41px;
+            }
+        }
+
+
+    }
+
+    .right {
+        width: 460px;
+        background-color: #1f1f1f;
+        opacity: 0.7;
+        margin: 40px 70px 40px 0px;
+
+        ul {
+            margin-top: 30px;
+        }
+
+        li {
+            width: 90%;
+            height: 50px;
+            margin: 10px;
+            font-size: 18px;
+            color: #8d8d8d;
+            line-height: 50px;
+            border-bottom: honeydew solid 1px;
+        }
+
+    }
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
